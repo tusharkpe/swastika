@@ -43,7 +43,7 @@ system_prompt = (
 # Ask button
 if st.button("Ask"):
     if question:
-        groq_client = Groq(api_key="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")
+        groq_client = Groq(api_key="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")
 
         prompt = f"""You are a data analyst. Use the following dataframe to answer the question.
 Data sample:
